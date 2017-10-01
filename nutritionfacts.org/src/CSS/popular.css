@@ -1,0 +1,163 @@
+/* This is the CSS for the popular */
+.popular {
+    position: absolute;
+    top: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .popular-container {
+    position: absolute;
+    width: 1180px;
+    height: 925px;
+    border-bottom: solid 1px lightgray;
+  }
+  
+  .popularheading {
+    position: absolute;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 20pt;
+    top: 40px;
+    width: 1180px;
+    height: 38px;
+  }
+  
+  .health-nutrition {
+    position: absolute;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 20pt;
+    left: 0px;
+  }
+  
+  .view-all-topics {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 140px;
+    height: 38px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .view-all-topics:hover {
+    background-color: lightgray;
+    border: solid 1px gray;
+  }
+  
+  .view-all-topics a {
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 11pt;
+    color: black;
+  }
+  
+  .popular-imgs-row-one {
+    position: absolute;
+    width: 1180px;
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+    top: 150px;
+  }
+  
+  .popular-imgs-row-one img {
+    width: 270px;
+    height: 295px;
+    border: solid 1px #E6E6E6;
+  }
+  
+  .row-one-img-footer {
+    position: absolute;
+    width: 1180px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    top: 420px;
+  }
+  
+  .row-one-img-footer div {
+    position: relative;
+    width: 270px;
+    height: 70px;
+    border-left: solid 1px #E6E6E6;
+    border-right: solid 1px #E6E6E6;
+    border-bottom: solid 1px #E6E6E6;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .video-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Verdana;
+    font-size: 13pt;
+    text-decoration: none;
+    color: black;
+  }
+
+  .video-name:hover {
+      border-bottom: solid 1px;
+  }
+  
+  .video-number {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 40px;
+    height: 25px;
+    font-family: Verdana;
+  }
+
+  .videos {
+      position: absolute;
+      bottom: 14px;
+      right: 18px;
+      font-family: Verdana;
+      font-size: 9pt;
+      color: gray;
+  }
+
+
+  
+  .popular-imgs-row-two {
+    position: absolute;
+    width: 1180px;
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+    top: 525px;
+    
+  }
+  
+  .popular-imgs-row-two img {
+    width: 270px;
+    height: 295px;
+    border: solid 1px #E6E6E6;
+  }
+
+  .row-two-img-footer {
+    position: absolute;
+    width: 1180px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    top: 800px;
+  }
+  
+  .row-two-img-footer div {
+    position: relative;
+    width: 270px;
+    height: 70px;
+    border-left: solid 1px #E6E6E6;
+    border-right: solid 1px #E6E6E6;
+    border-bottom: solid 1px #E6E6E6;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+  }

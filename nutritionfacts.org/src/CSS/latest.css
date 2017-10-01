@@ -1,0 +1,110 @@
+/* This is the CSS for the latest */
+.latest {
+    position: absolute;
+    top: 1555px;
+    width: 1200px;
+    height: 621px;
+    display: flex;
+    justify-content: center;
+  }
+
+.latest-container {
+  position: absolute;
+  width: 1170px;
+  height: 570px;
+}
+
+.latest-video {
+  position: absolute;
+  width: 390px;
+  height: 570px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.latest-picture {
+  position: absolute;
+  width: 360px;
+  height: 202px;
+  border-radius: 4px;
+}
+
+.latest-text {
+  position: absolute;
+  top: 200px;
+  width: 350px;
+  height: 200px;
+  font-family: Verdana;
+}
+
+.latest-text h4 a {
+  text-decoration: none;
+  font-family: Verdana;
+  color: black;
+}
+
+.latest-text h4 a:hover {
+  border-bottom: solid 1px;
+}
+
+.latest-text p {
+  font-size: 11pt;
+  line-height: 1.5;
+}
+
+.latest-text div a {
+  color: white;
+  font-size: 11pt;
+  font-family: Verdana;
+}
+
+.watch-video {
+  width: 125px;
+  height: 40px;
+  background-color: #00B1B2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.watch-video:hover {
+  background-color: #037474;
+}
+
+
+.latest-headers {
+  position: absolute;
+  font-family: Verdana;
+  font-size: 18pt;
+  left: 18px;
+  text-decoration: none;
+}
+
+.latest-body {
+  position: absolute;
+  bottom: 0px;
+  width: 360px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.year-in-review {
+  position: absolute;
+  width: 390px;
+  height: 570px;
+  left: 390px;
+  display: flex;
+  justify-content: center;
+}
+
+.latest-blog {
+  position: absolute;
+  width: 390px;
+  height: 570px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+}

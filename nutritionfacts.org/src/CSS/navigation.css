@@ -1,0 +1,162 @@
+/* This is the CSS for the navigation */
+.nav {
+    position: fixed;
+    top: 75px;
+    width: 100vw;
+    height: 60px;
+    border: 1px solid lightgray;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+  }
+  
+  .nav-container {
+    position: absolute;
+    width:1170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .video {
+    width: 195px;
+    height: 60px;
+    background-color: #EFEFEF;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #606060;
+  }
+  
+  .video:hover {
+    background-color: #00B1B2;
+    color: white;
+  }
+  
+  .video-menu {
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+  }
+  
+  .video-menu-text-box {
+    margin: 0px 10px 10px 12px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    border-bottom: dotted 2px #BDBDBD;
+    align-items: center;
+  }
+  
+  .video-menu-text-box:hover {
+    background-color: #EEECEC;
+  }
+  
+  .video-menu-text {
+    color: gray;
+    font-family: Verdana;
+    text-decoration: none;
+    font-size: 11pt;
+    margin: 2px 0px 0px 10px;
+  }
+  
+  .podcast {
+    width: 195px;
+    height: 60px;
+    background-color: #EFEFEF;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #606060;
+  }
+  
+  .podcast:hover {
+    background-color: #00B1B2;
+    color: white;
+  }
+  
+  .hownot {
+    width: 195px;
+    height: 60px;
+    background-color: #EFEFEF;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #606060;
+  }
+  
+  .hownot:hover {
+    background-color: #00B1B2;
+    color: white;
+  }
+  
+  .about {
+    width: 195px;
+    height: 60px;
+    background-color: #EFEFEF;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #606060;
+  }
+  
+  .about:hover {
+    background-color: #00B1B2;
+    color: white;
+  }
+  
+  .donate {
+    width: 195px;
+    height: 60px;
+    background-color: #EFEFEF;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #606060;
+  } 
+  
+  .donate:hover {
+    background-color: #00B1B2;
+    color: white;
+  }
+  
+  .subscribe {
+    width: 195px;
+    height: 60px;
+    background-color: #EFEFEF;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #606060;
+  }
+  
+  .subscribe:hover {
+    background-color: #00B1B2;
+    color: white;
+  }

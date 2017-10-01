@@ -1,0 +1,120 @@
+/* This is the CSS for the hero */
+.hero {
+    position: absolute;
+    top: 135px;
+    width: 100vw;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #00B1B2, #9FCC73)
+  }
+  
+  .hero-container {
+    position: absolute;
+    width: 1170px;
+    height: 475px;
+  }
+  
+  .greger {
+    position: absolute;
+    width: 530px;
+    height: auto;
+    bottom: 0px;
+    right: 20px;
+  }
+  
+  .heroheadline {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: Verdana;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+  
+  }
+  
+  .heropara1 {
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    color: white;
+    font-size: 13pt;
+    font-family: Verdana;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.48);
+    line-height: 30px;
+  }
+  
+  .heropara2 {
+    position: absolute;
+    left: 0px;
+    top: 240px;
+    color: white;
+    font-size: 12pt;
+    font-family: Verdana;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.41);
+    line-height: 25px;
+  }
+  
+  .findoutmore {
+    position: absolute;
+    left: 0px;
+    top: 325px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00B1B2;
+    color: white;
+    font-family: Verdana;
+    font-size: 14pt;
+  }
+  
+  .findoutmore:hover {
+    background-color: #037474;
+  }
+  
+  .startwatching {
+    position: absolute;
+    left: 215px;
+    top: 325px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: #EFEFEF;
+    font-family: Verdana;
+    font-size: 14pt;
+  }
+  
+  .startwatching:hover {
+    background-color: #CDCDCD;
+  }
+  
+  .gotolatestvideo {
+    position: absolute;
+    left: 0px;
+    top: 395px;
+    color: #1F1F1F;
+    font-size: 10pt;
+    font-family: Verdana;
+    border-bottom: dotted 1px;
+    text-decoration: none;
+  }
+  
+  .gotolatestvideo:hover {
+    border-bottom: solid 1px #037474;
+    color: #037474;
+  }
+  
+  .michaelgreger {
+    position: absolute;
+    left: 530px;
+    top: 380px;
+    color: #1D1D1D;
+    font-size: 10pt;
+    font-family: Verdana;
+    line-height: 25px;
+  }

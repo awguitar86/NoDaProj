@@ -1,0 +1,112 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+  }
+  
+  .header-container {
+    position: absolute;
+    width: 1174px;
+    height: 58px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logoimg {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 50px;
+    height: auto;
+  }
+  
+  .logotext {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    margin-left: 5px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Verdana;
+    text-decoration: none; 
+    color: #545454;
+  
+  }
+  
+  .search {
+    position: absolute;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 590px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 3px;
+  }
+  
+  .searchicon {
+    width: 35px;
+    height: auto;
+  }
+  
+  .input {
+    width: 440px;
+    height: 35px;
+    border: none;
+    font-size: 11pt;
+    font-family: Verdana;
+    outline: none;
+  }
+  
+  .searchbutton {
+    width: 100px;
+    height: 40px;
+    background-color: #00B1B2;
+    border: none;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+    margin: 2px;
+    
+  }
+  
+  .searchbutton:hover {
+    background-color: #037474;
+  }
+  
+  .register-signin {
+    position: absolute;
+    left: 1000px;
+    width: 170px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .register {
+    font-size: 10pt;
+    font-weight: bold; 
+    font-family: Verdana;
+    color: #797878;
+  }
+  
+  .register:hover {
+    color: black;
+  }
+  
+  .signin {
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: Verdana; 
+    color: #00B1B2;
+  }
